@@ -6,8 +6,8 @@
     <movie input="" />
     <movie path="bin\FaceFrontHelper.swf" />
     <movie fps="30" />
-    <movie width="800" />
-    <movie height="600" />
+    <movie width="1200" />
+    <movie height="768" />
     <movie version="11" />
     <movie minorVersion="3" />
     <movie platform="Flash Player" />
@@ -53,6 +53,7 @@
   <!-- SWC Libraries -->
   <libraryPaths>
     <element path="MinimalComps_0_9_10.swc" />
+    <element path="Console.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>

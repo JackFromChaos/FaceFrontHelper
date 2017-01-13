@@ -21,7 +21,7 @@ package
 		{
 			graphics.beginFill(0);
 			graphics.drawCircle(0, 0, 10);
-			scaleX = scaleY = 2;
+			scaleX = scaleY = 1;
 			_imageLeft = new Image(false);
 			_imageRight = new Image(true);
 			addChild(_imageLeft);

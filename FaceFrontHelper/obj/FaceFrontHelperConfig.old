@@ -16,7 +16,7 @@
     </define>
     <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'12.01.2017'</value>
+      <value>'13.01.2017'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -32,15 +32,16 @@
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>D:\Projects\FaceFrontHelper\src</path-element>
+      <path-element>D:\bitbucket\FaceFrontHelper\FaceFrontHelper\src</path-element>
       <path-element>C:\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>D:\Projects\FaceFrontHelper\MinimalComps_0_9_10.swc</path-element>
+      <path-element>D:\bitbucket\FaceFrontHelper\FaceFrontHelper\MinimalComps_0_9_10.swc</path-element>
+      <path-element>D:\bitbucket\FaceFrontHelper\FaceFrontHelper\Console.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>D:\Projects\FaceFrontHelper\src\Main.as</path-element>
+    <path-element>D:\bitbucket\FaceFrontHelper\FaceFrontHelper\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>

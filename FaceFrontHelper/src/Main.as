@@ -2,6 +2,8 @@ package
 {
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import flash.events.MouseEvent;
+	import ru.etcs.ui.MouseWheel;
 	import uk.co.soulwire.gui.SimpleGUI;
 	
 	/**
@@ -21,6 +23,9 @@ package
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			// entry point
+			stage.addEventListener(MouseEvent.MOUSE_DOWN, mouseDownHandler);
+			Enveroment.init(this);
+			MouseWheel.capture();
 			
 			/*var _gui:SimpleGUI = new SimpleGUI(this, "Example GUI", "C");
 			
@@ -30,6 +35,11 @@ package
 				//_gui.addSaveButton();			
 			_gui.show();*/
 			addChild(new Window());
+		}
+		
+		private function mouseDownHandler(e:MouseEvent):void 
+		{
+			MouseWheel.capture();
 		}
 		
 		
